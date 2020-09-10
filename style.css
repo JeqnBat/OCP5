@@ -1,0 +1,50 @@
+/**
+ * Author : Jean-Baptiste Pellier
+ * Project Name : OpenClassRooms P5 - "Quote Engine"
+ * Description : Concieve a quote engine with native javascript
+ * Tags : JS / BOOTSTRAP / ALGORITHM
+ */
+
+/* =============== INDEX ===============
+
+ 1. HTML & BODY
+ 2. MAIN LAYOUT
+
+*/
+
+/* 1. HTML & BODY
+________________________________________ */
+html {
+  height:100%;
+  background: url(OCP5_bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+body {
+  background:none;
+}
+
+/* 2. MAIN LAYOUT
+________________________________________ */
+#logo {
+  margin-top:25vh;
+  margin-bottom:5vh;
+}
+
+#buttons {
+  display: none;
+}
+
+#merci {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left:50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
